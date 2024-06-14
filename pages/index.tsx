@@ -21,8 +21,8 @@ const Home: NextPage = () => {
 
       <h1 className="m-auto text-center md:mt-8 text-4xl md:text-6xl font-extrabold">
         Welcome to{' '}
-        <a href="https://github.com/iMuzz/web3-starter" target="_blank" rel="noreferrer" className="rotating-hue">
-          Web 3 Starter
+        <a href="https://github.com/NFTbfs/Web3-wallet" target="_blank" rel="noreferrer" className="rotating-hue">
+          Web 3 Startertarter
         </a>
       </h1>
 
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
       </div> */}
 
       <a
-        href="https://github.com/iMuzz/web3-starter"
+        href="https://github.com/NFTbfs/Web3-wallet"
         target="_blank"
         rel="noreferrer"
         className="fixed left-5 bottom-4 flex flex-col"
@@ -49,14 +49,14 @@ const Home: NextPage = () => {
       </a>
       <div className="fixed right-5 bottom-4 flex flex-col">
         <div className="text-gray-500 dark:text-white text-xs mb-2 text-center">Maintained By</div>
-        <div>
+        {/* <div>
           <a className="mr-2" href="https://twitter.com/faraaz" target="_blank" rel="noreferrer">
             <Image className="rounded-full" src="/peng.jpeg" alt="Faraaz N." width="35" height="35" />
           </a>
           <a href="https://twitter.com/jonathanmcai" rel="noreferrer" target="_blank">
             <Image className="rounded-full" src="/jon.jpeg" alt="Jonny Cai" width="35" height="35" />
           </a>
-        </div>
+        </div> */}
       </div>
       <style jsx>{`
         .rotating-hue {
